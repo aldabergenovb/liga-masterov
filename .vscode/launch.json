@@ -6,9 +6,9 @@
     "configurations": [
 
         {
-            "type": "chrome",
-            "request": "launch",
             "name": "Launch Chrome against localhost",
+            "type": "cppvsdbg",
+            "request": "launch",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
         }
